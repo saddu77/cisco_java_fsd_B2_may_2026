@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // Switch case statement
+    function checkDay() {
+        var day = document.getElementById("day").value.toLowerCase();
+        
+        switch (day) {
+            case "monday":
+                alert("Today is Monday.");
+                break;
+            case "tuesday":
+                alert("Today is Tuesday.");
+                break;
+            case "wednesday":
+                alert("Today is Wednesday.");
+                break;
+            case "thursday":
+                alert("Today is Thursday.");
+                break;
+            case "friday":
+                alert("Today is Friday.");
+                break;
+            case "saturday":
+                alert("Today is Saturday.");
+                break;
+            case "sunday":
+                alert("Today is Sunday.");
+                break;
+            default:
+                alert("Invalid day entered.");
+        }
+    }
+
+</script>
+<body>
+    <h2>Switch case Demo</h2>
+    <p>Enter a day of the week: <input type="text" id="day"></p>
+    <button onclick="checkDay()">Submit</button>
+</body>
+</html>

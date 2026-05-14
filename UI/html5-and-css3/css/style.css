@@ -1,0 +1,30 @@
+body{
+    background-color: olivedrab;
+    color: white;
+}
+
+#loginForm , #signupForm{
+    border: 2px solid white;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15%;
+    width: fit-content;    
+}
+a{
+    color: white;
+}
+ul li{
+    display: inline-block;
+    margin: 35px;
+    font-size: large;
+}
+
+table,th,tr,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+   
+}

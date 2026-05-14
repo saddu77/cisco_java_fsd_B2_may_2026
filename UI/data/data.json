@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "ID001",
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "password": "12345678",
+      "phone": "1234567890",
+      "address": "123 Main St, Anytown, USA"
+    },
+    {
+      "email": "ankit@gmail.com",
+      "password": "12345678",
+      "id": "c028"
+    },
+    {
+      "id": "c1e3",
+      "email": "Alex",
+      "password": "123456"
+    },
+    {
+      "id": "d7b8",
+      "username": "kim",
+      "password": "123456"
+    }
+  ]
+}
